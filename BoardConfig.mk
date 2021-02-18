@@ -9,6 +9,7 @@ TARGET_BOOTLOADER_BOARD_NAME := mt6771        # From ro.product.board
 # These two are for MTK Chipsets only
 BOARD_USES_MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
+MTK_HARDWARE := true
 
 # Recovery
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -31,9 +32,11 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true            # To add info about F2FS Filesystem Data Block
+TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
+TARGET_RECOVERY_INITRC := $(LOCAL_PATH)/recovery/root/init.recovery.mt6771.rc
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/twrp.fstab
 
 # TWRP stuff
-TW_EXCLUDE_SUPERSU := true                    # true/false: Add SuperSU or not
 TW_INPUT_BLACKLIST := "hbtp_vm"               # Optional: Disables virtual mouse
 TW_SCREEN_BLANK_ON_BOOT := true
 # TW_THEME := portrait_hdpi                   # Set the exact theme you wanna use. If resulation doesn't match, define the height/width
@@ -51,26 +54,34 @@ TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 80                   # Set custom brightness, low is better
 
 TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_SUPERSU := true
+
 TW_HAS_DOWNLOAD_MODE := false
 TW_INCLUDE_NTFS_3G := true                    # Include NTFS Filesystem Support
 TW_INCLUDE_FUSE_EXFAT := true                 # Include Fuse-ExFAT Filesystem Support
 TWRP_INCLUDE_LOGCAT := true                   # Include LogCat Binary
-TARGET_USES_LOGD := true
 TW_INCLUDE_FB2PNG := true                     # Include Screenshot Support
 TW_DEFAULT_LANGUAGE := en                     # Set Default Language 
 TW_EXTRA_LANGUAGES := false
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+TW_FORCE_USE_BUSYBOX := true
+
+#TW_HAS_MTP := true
+TW_INCLUDE_REPACKTOOLS := true
+#TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_DEFAULT_EXTERNAL_STORAGE := true
+TW_NO_USB_STORAGE := true
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_FBE_METADATA_DECRYPT := true
-BOARD_USES_METADATA_PARTITION := true
+#TW_INCLUDE_FBE_METADATA_DECRYPT := true
+#BOARD_USES_METADATA_PARTITION := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
-BOARD_ROOT_EXTRA_FOLDERS += metadata persist
+BOARD_ROOT_EXTRA_FOLDERS += metadata
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 buildvariant=$(TARGET_BUILD_VARIANT) androidboot.selinux=permissive

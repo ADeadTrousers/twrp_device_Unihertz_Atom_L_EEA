@@ -65,5 +65,5 @@ For now the only working recovery is the LineageOS recovery.
 2. Connect your phone to your PC and open a terminal or a command line window.
 3. Run `adb reboot bootloader` on your PC to put your device in bootloader mode.
 4. Once your device has finished booting run `fastboot flash recovery recovery.img`.
-5. Run `fastboot boot recovery.img` to reboot into the newly-installed TWRP recovery.
-
+5. Run `fastboot reboot` and after the screen goes dark press volume up until you see the TWRP logo.
+6. Now you need to install a new ROM because booting into stock ROM will replace TWRP with the stock recovery.

@@ -4,6 +4,8 @@ This device tree is intended for a special useage in a TWRP or similar environme
 
 The Unihertz Atom L (codenamed simply _"Atom_L"_) is a rugged small smartphone from Unihertz, released in July 2020. It is similar to the Atom XL but without integrated amateur radio support.
 
+![](docs/images/atom_l.png)
+
 | Basic                   | Spec Sheet                                                                                                                     |
 | -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
 | CPU                     | Octa-core                                                                                                                      |
@@ -19,10 +21,10 @@ The Unihertz Atom L (codenamed simply _"Atom_L"_) is a rugged small smartphone f
 
 ## Documentations
 
-- [HOW-TO-BUILD.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_XL/blob/master/docs/HOW-TO-BUILD.md) - Building instructions for TWRP.
-- [HOW-TO-INSTALL.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_XL/blob/master/docs/HOW-TO-INSTALL.md) - Installation instructions for the Atom L.
-- [HOW-TO-UPDATE.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_XL/blob/master/docs/HOW-TO-UPDATE.md) - Update instructions for the Atom L.
-- [HOW-TO-PATCH.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_XL/blob/master/docs/HOW-TO-PATCH.md) - Patching the prebuilt kernel to activate touchscreen in recovery mode.
+- [HOW-TO-BUILD.md](docs/HOW-TO-BUILD.md) - Building instructions for TWRP.
+- [HOW-TO-INSTALL.md](docs/HOW-TO-INSTALL.md) - Installation instructions for the Atom L.
+- [HOW-TO-UPDATE.md](docs/HOW-TO-UPDATE.md) - Update instructions for the Atom L.
+- [HOW-TO-PATCH.md](docs/HOW-TO-PATCH.md) - Patching the prebuilt kernel to activate touchscreen in recovery mode.
 
 ## Special Thanks To
 
