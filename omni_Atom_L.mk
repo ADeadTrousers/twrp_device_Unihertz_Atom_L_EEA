@@ -25,7 +25,7 @@ PRODUCT_MODEL := Atom_L
 PRODUCT_MANUFACTURER := Unihertz
 
 # Add fingerprint from Stock ROM build.prop
-BUILD_FINGERPRINT := "Unihertz/Atom_L_EEA/Atom_L:10/QP1A.190711.020/root.20200916.184140:user/release-keys" \
+BUILD_FINGERPRINT := "Unihertz/Atom_L_EEA/Atom_L:10/QP1A.190711.020/root.20200916.184140:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=Atom_L \
     PRODUCT_NAME=Atom_L_EEA \
