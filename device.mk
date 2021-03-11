@@ -1,4 +1,1 @@
-PRODUCT_PACKAGES += \
-    logcat_defaults \
-    logcat \
-    logcatd
+LOCAL_PATH := device/Unihertz/Atom_XL
