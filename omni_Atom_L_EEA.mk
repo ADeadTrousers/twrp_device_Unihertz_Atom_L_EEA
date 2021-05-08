@@ -15,9 +15,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
+# Inherit from vendor
+$(call inherit-product-if-exists, vendor/Unihertz/Atom_L_EEA/Atom_L_EEA-vendor.mk)
+
 # Files under $(LOCAL_PATH)/recovery/root/ get automatically copied into recovery
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,device/Unihertz/Atom_LXL/recovery/root,root)
+    $(call find-copy-subdir-files,*,device/Unihertz/Atom_LXL/recovery/root,recovery/root)
 
 PRODUCT_NAME := omni_Atom_L_EEA
 PRODUCT_DEVICE := Atom_L_EEA
