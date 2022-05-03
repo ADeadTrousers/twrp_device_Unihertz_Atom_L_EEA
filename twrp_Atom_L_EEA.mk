@@ -31,8 +31,8 @@ PRODUCT_MANUFACTURER := Unihertz
 PRODUCT_BOARD := g63v71c2k_dfl_eea
 
 # Add fingerprint from Stock ROM build.prop
-BUILD_FINGERPRINT := "Unihertz/Atom_L_EEA/Atom_L:10/QP1A.190711.020/root.20200312.145449:user/release-keys"
+BUILD_FINGERPRINT := "Unihertz/Atom_L_EEA/Atom_L:11/RP1A.200720.011/root.20210722.143145:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=Atom_L_EEA \
     PRODUCT_NAME=Atom_L_EEA \
-    PRIVATE_BUILD_DESC="Atom_L_EEA-user 10 QP1A.190711.020 root.20200312.145449 release-keys"
+    PRIVATE_BUILD_DESC="Atom_L_EEA-user 11 RP1A.200720.011 root.20210722.143145 release-keys"
