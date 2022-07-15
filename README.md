@@ -29,11 +29,11 @@ Additionally to this region device tree, you'll need the common device tree
 
 ## Documentations
 
-- [HOW-TO-BUILD.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/twrp-11.0/docs/HOW-TO-BUILD.md) - Building instructions for TWRP.
-- [HOW-TO-INSTALL.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/twrp-11.0/docs/HOW-TO-INSTALL.md) - Installation instructions for the Atom L/XL.
-- [HOW-TO-UPDATE.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/twrp-11.0/docs/HOW-TO-UPDATE.md) - Update instructions for the Atom L/XL.
-- [HOW-TO-EXTRACT_FILES.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/twrp-11.0/docs/HOW-TO-EXTRACT_FILES.md) - Instructions to extract files directly from the Atom L/XL stock rom files.
-- [HOW-TO-PATCH.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/twrp-11.0/docs/HOW-TO-PATCH.md) - Patching the prebuilt kernel to activate touchscreen in recovery mode.
+- [HOW-TO-BUILD.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-BUILD.md) - Building instructions for TWRP.
+- [HOW-TO-INSTALL.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-INSTALL.md) - Installation instructions for the Atom L/XL.
+- [HOW-TO-UPDATE.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-UPDATE.md) - Update instructions for the Atom L/XL.
+- [HOW-TO-EXTRACT_FILES.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-EXTRACT_FILES.md) - Instructions to extract files directly from the Atom L/XL stock rom files.
+- [HOW-TO-PATCH.md](https://github.com/ADeadTrousers/twrp_device_Unihertz_Atom_LXL/blob/master/docs/HOW-TO-PATCH.md) - Patching the prebuilt kernel to activate touchscreen in recovery mode.
 
 ## Special Thanks To
 
